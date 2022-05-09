@@ -1,0 +1,209 @@
+!SESSION 2022-05-09 20:12:03.309 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=11.0.14.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-05-09 20:12:07.938
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-09 20:12:07.938
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@229cb4d8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76e9eed8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-09 20:12:07.938
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30ef32eb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@474619d9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-05-09 20:12:10.838
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 4 4 2022-05-09 22:16:15.715
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/run_hera)[368]: java.lang.Exception: Resource '/run_hera' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at org.testng.eclipse.util.TestSearchEngine.findSuites(TestSearchEngine.java:426)
+	at org.testng.eclipse.util.TestSearchEngine.doFindSuites(TestSearchEngine.java:407)
+	at org.testng.eclipse.util.TestSearchEngine.access$3(TestSearchEngine.java:397)
+	at org.testng.eclipse.util.TestSearchEngine$5.run(TestSearchEngine.java:148)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-05-09 22:16:15.716
+!MESSAGE Resource '/run_hera' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/run_hera' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at org.testng.eclipse.util.TestSearchEngine.findSuites(TestSearchEngine.java:426)
+	at org.testng.eclipse.util.TestSearchEngine.doFindSuites(TestSearchEngine.java:407)
+	at org.testng.eclipse.util.TestSearchEngine.access$3(TestSearchEngine.java:397)
+	at org.testng.eclipse.util.TestSearchEngine$5.run(TestSearchEngine.java:148)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.testng.eclipse 4 4 2022-05-09 22:16:17.445
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/run_hera)[368]: java.lang.Exception: Resource '/run_hera' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at org.testng.eclipse.util.TestSearchEngine.findSuites(TestSearchEngine.java:426)
+	at org.testng.eclipse.util.TestSearchEngine.doFindSuites(TestSearchEngine.java:407)
+	at org.testng.eclipse.util.TestSearchEngine.access$3(TestSearchEngine.java:397)
+	at org.testng.eclipse.util.TestSearchEngine$5.run(TestSearchEngine.java:148)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-05-09 22:16:17.445
+!MESSAGE Resource '/run_hera' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/run_hera' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at org.testng.eclipse.util.TestSearchEngine.findSuites(TestSearchEngine.java:426)
+	at org.testng.eclipse.util.TestSearchEngine.doFindSuites(TestSearchEngine.java:407)
+	at org.testng.eclipse.util.TestSearchEngine.access$3(TestSearchEngine.java:397)
+	at org.testng.eclipse.util.TestSearchEngine$5.run(TestSearchEngine.java:148)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.testng.eclipse 4 4 2022-05-09 22:16:19.359
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/run_hera)[368]: java.lang.Exception: Resource '/run_hera' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at org.testng.eclipse.util.TestSearchEngine.findSuites(TestSearchEngine.java:426)
+	at org.testng.eclipse.util.TestSearchEngine.doFindSuites(TestSearchEngine.java:407)
+	at org.testng.eclipse.util.TestSearchEngine.access$3(TestSearchEngine.java:397)
+	at org.testng.eclipse.util.TestSearchEngine$5.run(TestSearchEngine.java:148)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-05-09 22:16:19.359
+!MESSAGE Resource '/run_hera' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/run_hera' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at org.testng.eclipse.util.TestSearchEngine.findSuites(TestSearchEngine.java:426)
+	at org.testng.eclipse.util.TestSearchEngine.doFindSuites(TestSearchEngine.java:407)
+	at org.testng.eclipse.util.TestSearchEngine.access$3(TestSearchEngine.java:397)
+	at org.testng.eclipse.util.TestSearchEngine$5.run(TestSearchEngine.java:148)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.testng.eclipse 4 4 2022-05-09 22:16:19.564
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/run_hera)[368]: java.lang.Exception: Resource '/run_hera' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at org.testng.eclipse.util.TestSearchEngine.findSuites(TestSearchEngine.java:426)
+	at org.testng.eclipse.util.TestSearchEngine.doFindSuites(TestSearchEngine.java:407)
+	at org.testng.eclipse.util.TestSearchEngine.access$3(TestSearchEngine.java:397)
+	at org.testng.eclipse.util.TestSearchEngine$5.run(TestSearchEngine.java:148)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2022-05-09 22:16:19.564
+!MESSAGE Resource '/run_hera' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/run_hera' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:145)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:244)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:231)
+	at org.testng.eclipse.util.TestSearchEngine.findSuites(TestSearchEngine.java:426)
+	at org.testng.eclipse.util.TestSearchEngine.doFindSuites(TestSearchEngine.java:407)
+	at org.testng.eclipse.util.TestSearchEngine.access$3(TestSearchEngine.java:397)
+	at org.testng.eclipse.util.TestSearchEngine$5.run(TestSearchEngine.java:148)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.testng.eclipse 1 0 2022-05-09 22:17:16.105
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Lenovo\eclipse\java-2021-122\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\bin D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\emitter-0.6.0.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\gson-2.8.5.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\json-20180130.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\lightcouch-0.2.0.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\poi-3.7-20101029.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\selenium-server-standalone-3.11.0.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\socket.io-client-0.6.0.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\socket.io-client-1.0.0.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\testng-6.8.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 1284 -protocol json -d D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\test-output D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\run.xml
+java -ea -classpath C:\Users\Lenovo\eclipse\java-2021-122\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\bin:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\emitter-0.6.0.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\gson-2.8.5.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\json-20180130.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\lightcouch-0.2.0.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\poi-3.7-20101029.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\selenium-server-standalone-3.11.0.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\socket.io-client-0.6.0.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\socket.io-client-1.0.0.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\testng-6.8.jar org.testng.remote.RemoteTestNG -serport 1284 -protocol json -d D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\test-output D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\run.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-05-09 22:20:50.908
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Lenovo\eclipse\java-2021-122\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\bin D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\emitter-0.6.0.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\gson-2.8.5.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\json-20180130.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\lightcouch-0.2.0.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\poi-3.7-20101029.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\selenium-server-standalone-3.11.0.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\socket.io-client-0.6.0.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\socket.io-client-1.0.0.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\testng-6.8.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 3296 -protocol json -d D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\test-output D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\run.xml
+java -ea -classpath C:\Users\Lenovo\eclipse\java-2021-122\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\bin:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\emitter-0.6.0.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\gson-2.8.5.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\json-20180130.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\lightcouch-0.2.0.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\poi-3.7-20101029.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\selenium-server-standalone-3.11.0.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\socket.io-client-0.6.0.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\socket.io-client-1.0.0.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\testng-6.8.jar org.testng.remote.RemoteTestNG -serport 3296 -protocol json -d D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\test-output D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\run.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-05-09 22:21:44.945
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Lenovo\eclipse\java-2021-122\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\bin D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\emitter-0.6.0.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\gson-2.8.5.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\json-20180130.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\lightcouch-0.2.0.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\poi-3.7-20101029.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\selenium-server-standalone-3.11.0.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\socket.io-client-0.6.0.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\socket.io-client-1.0.0.jar D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\testng-6.8.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 1030 -protocol json -d D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\test-output D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\run2.xml
+java -ea -classpath C:\Users\Lenovo\eclipse\java-2021-122\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\bin:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\emitter-0.6.0.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\gson-2.8.5.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\json-20180130.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\lightcouch-0.2.0.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\poi-3.7-20101029.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\selenium-server-standalone-3.11.0.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\socket.io-client-0.6.0.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\socket.io-client-1.0.0.jar:D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\lib\testng-6.8.jar org.testng.remote.RemoteTestNG -serport 1030 -protocol json -d D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\test-output D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\hera_wcrl3_source_stu_nov24\run2.xml

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\big_data\dathoc\source_de\_projects\hera_wcrl3_source_stu_nov24\.metadata\.plugins\org.eclipse.jdt.core
+2068595764.index
+1865797976.index
+1536937353.index

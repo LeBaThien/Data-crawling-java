@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="num" value="1"/>
+  <parameter name="browser" value="chrome"/>
+  <test name="1(failed)" parallel="tests">
+    <parameter name="num" value="1"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="hera.wcrl.webcontrol">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="runKDD"/>
+        </methods>
+      </class> <!-- hera.wcrl.webcontrol -->
+    </classes>
+  </test> <!-- 1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1" thread-count="15" parallel="tests">
+<test name="1"><parameter name="num" value="1" /><parameter name="browser" value="chrome" /><classes><class name="hera.wcrl.webcontrol" /></classes></test>
+<test name="2"><parameter name="num" value="2" /><parameter name="browser" value="chrome" /><classes><class name="hera.wcrl.webcontrol" /></classes></test>
+<test name="3"><parameter name="num" value="3" /><parameter name="browser" value="chrome" /><classes><class name="hera.wcrl.webcontrol" /></classes></test>
+<test name="4"><parameter name="num" value="4" /><parameter name="browser" value="chrome" /><classes><class name="hera.wcrl.webcontrol" /></classes></test>
+<test name="5"><parameter name="num" value="5" /><parameter name="browser" value="chrome" /><classes><class name="hera.wcrl.webcontrol" /></classes></test>
+<test name="6"><parameter name="num" value="6" /><parameter name="browser" value="chrome" /><classes><class name="hera.wcrl.webcontrol" /></classes></test>
+<test name="7"><parameter name="num" value="7" /><parameter name="browser" value="chrome" /><classes><class name="hera.wcrl.webcontrol" /></classes></test>
+<test name="8"><parameter name="num" value="8" /><parameter name="browser" value="chrome" /><classes><class name="hera.wcrl.webcontrol" /></classes></test>
+<test name="9"><parameter name="num" value="9" /><parameter name="browser" value="chrome" /><classes><class name="hera.wcrl.webcontrol" /></classes></test>
+<test name="10"><parameter name="num" value="10" /><parameter name="browser" value="chrome" /><classes><class name="hera.wcrl.webcontrol" /></classes></test>
+<test name="11"><parameter name="num" value="11" /><parameter name="browser" value="chrome" /><classes><class name="hera.wcrl.webcontrol" /></classes></test>
+<test name="12"><parameter name="num" value="12" /><parameter name="browser" value="chrome" /><classes><class name="hera.wcrl.webcontrol" /></classes></test>
+<test name="13"><parameter name="num" value="13" /><parameter name="browser" value="chrome" /><classes><class name="hera.wcrl.webcontrol" /></classes></test>
+<test name="14"><parameter name="num" value="14" /><parameter name="browser" value="chrome" /><classes><class name="hera.wcrl.webcontrol" /></classes></test>
+<test name="15"><parameter name="num" value="15" /><parameter name="browser" value="chrome" /><classes><class name="hera.wcrl.webcontrol" /></classes></test>
+</suite>
